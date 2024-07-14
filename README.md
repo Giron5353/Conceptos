@@ -1,4 +1,6 @@
 VARIABLES
+-------------------------------------------------------------------------------------------------------------------------
+
 En Kotlin, la declaración de variables ofrece diversas opciones para manejar datos de manera flexible y segura 
 Para empezar, puedes usar val para definir variables inmutables, ideales para valores que no cambiarán después de la inicialización, como el valor de π:
 
@@ -32,9 +34,12 @@ const val PI = 3.1416
 
 Estas características hacen que Kotlin sea versátil y eficiente para manejar diferentes tipos de datos y escenarios de programación, 
 asegurando tanto la flexibilidad como la seguridad en la manipulación de variables y constantes.
+
 -------------------------------------------------------------------------------------------------------------------------
 
 CONSTANTES
+-------------------------------------------------------------------------------------------------------------------------
+
  En Kotlin, las constantes también pueden manejar nulos de manera segura mediante las siguientes técnicas:
 
 Constantes no nulas por defecto:
@@ -73,9 +78,12 @@ val length: Int = nombre!!.length
 
 Estas estrategias permiten manejar las constantes nulas de manera efectiva en Kotlin, 
 asegurando la integridad y la seguridad del código al evitar excepciones NullPointerException y manejar valores por defecto de manera adecuada cuando sea necesario.
+
 -------------------------------------------------------------------------------------------------------------------------
 
 OPCIONALES
+-------------------------------------------------------------------------------------------------------------------------
+
 En Kotlin, puedes declarar variables que pueden contener valores nulos agregando ? al tipo de dato, 
 lo que evita errores de NullPointerException.
 
@@ -112,9 +120,12 @@ fun longitudNombre(nombre: String?): Int {
 }
 
 Estas características hacen que Kotlin sea seguro y robusto para manejar nulabilidad, mejorando la claridad y seguridad del código.
+
 -------------------------------------------------------------------------------------------------------------------------
 
 NULOS
+-------------------------------------------------------------------------------------------------------------------------
+
 En Kotlin, "null" es manejado de manera explícita a través del sistema de tipos del lenguaje, 
 lo que ayuda a prevenir errores comunes relacionados con referencias nulas (NullPointerException). Aquí tienes un resumen sobre cómo Kotlin aborda el manejo de nulos:
 
@@ -153,4 +164,5 @@ val longitud: Int = nombre!!.length
 
 Estas características ayudan a mejorar la robustez y la claridad del código al manejar las referencias nulas de manera explícita, 
 reduciendo significativamente los errores comunes relacionados con nulos en tiempo de ejecución.
+
 -------------------------------------------------------------------------------------------------------------------------
